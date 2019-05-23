@@ -1,0 +1,138 @@
+通过这一天的学习，我明白了HTML不是一种编程语言，而是一种标识语言。是通过客户向服务器发送一个请求，以一种超文本的形式传输到客户端的浏览器。浏览器再做转译。
+01.HTML的基本格式命令
+
+<html>
+
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="mycss.css>
+<script type="text/javascript">
+</head>
+
+<body>
+</body>
+</html>
+HTML 标题
+
+<h1>-<h6> 标签进行定义
+链接：
+<a href="address" target="_blank"></a>
+图像：
+<img src="文件地址" width="" height="" alt="文本">
+重要：
+
+<align="center">将文本居中显示
+
+<hr>水平线
+<br> 换行
+
+<body bgcolor="color">设置页面背景颜色
+
+<body background="图片地址" align="属性">设置页面背景图片
+<!-- 文本 --> 注释文本
+尽量使用style样式改变属性
+文本样式
+外部链接：
+
+<body style="bgcolor:red">
+尽量使用style样式改变属性
+文本样式
+外部链接：
+font-family 定义字体类型
+color 定义文字颜色
+font-size 定义文字大小
+text-align：属性 定义文本的对齐方式
+<b>文本</b> 文字加粗
+<i>文本</i> 文字斜体
+<sub>文本</sub> 下标
+<sup>文本</sup> 上标
+
+<address>文本<address> 定义地址
+
+<blockquote></blockquote> 定义长引用
+<q></q> 定义短引用
+<cite></cite> 定义著作的标题
+css格式
+尽量使用style样式改变属性
+外部链接：
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+内部链接：
+
+<p style="color:red">
+**文本样式
+表格:
+
+<table>
+<caption>定义表格标题</caption>
+<th></th> <!-- 定义表头-->
+<tr><td></td><!--定义列--><tr><!-- 定义行-->
+<tr><td></td><!--定义列--><tr><!-- 定义行-->
+</table>
+colspan="数字" 合并列
+rowspan=“数字” 合并行
+列表
+无序列表：
+
+<ul>
+<li></li>
+<li></li>
+<li></li>
+
+<ul>
+有序列表：
+
+<ol>
+<li></li>
+<li></li>
+</ol>
+type="符号属性"
+块结构**
+
+<div></div>
+<span></span>
+
+<header></header> <!-- 定义文档页眉-->
+
+<nav></nav> <!-- 定义导航条的容器-->
+框架
+
+<frameset cols="数值"><!-- 将cols改为rows，即为水平框架-->
+<frame src="网页地址"></frame>
+<frame src=“网页地址”></frame>
+</frameset>
+内联框架
+
+<iframe src="需要链接的网页" width=“” height=“” name="id"></iframe>
+
+<p terget="id" ></p>
+属性：farmeborder="0" <!-- 设置边框为零-->
+表单
+
+<form action="文件名"<!-- 提交表单数据--> method="host(get)"<!-- 提交数据的方式--> type=“text（number，date，time，datetime，radio<!-- 单选-->，checkbox<!-- 复选-->，submit<!--提交-->， value="文本"<!--默认文本-->，passwd<!--密码-->，color,range<!--滑块-->,email,search<!--搜索-->，tel<!--电话-->）”<!-- 属性-->>
+<input></input>
+<input></input>
+</form>
+下拉菜单
+
+<select name="cars">
+<option value="hello">hello</option>
+<option value="hello" selected<!---定义首选项-->>hell</option>
+<option value="hello">hllo</option>
+</select>
+
+<textarea name="文本" rows=“” cols=“”>
+</textarea>
+<!--文本输入框-->
+点击按钮
+
+<button type="button" onliek="alert(hello world)"<!--点击后提示窗口文本-->>点击我</button>
+输入属性
+value=“文本”<!--规定输入文本的属性-->
+readonly <!--只读不能修改-->
+disabled <!--输入字符是禁用的，不可点和不可用-->
+maxlength <!--规定输入字符允许的最大长度-->
+
+这是我整理出来的HTML笔记，现在能够认识一些基础的HTML代码。后期的js和css布局，HTTL5还在学习中。
